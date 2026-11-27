@@ -26,7 +26,9 @@ Automatizar a organização das filas de atendimento clínico garantindo a ident
 
 ### Compilação
 ```bash
-gcc -Wall -Wextra -std=c11 main.c fila_senhas.c -o clinica_senhas
+### Compilação
+```bash
+gcc -Wall -Wextra -std=c11 main.c triagem.c filas.c interface.c -o clinica_senhas
 ```
 
 ### Execução
